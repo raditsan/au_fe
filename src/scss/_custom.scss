@@ -1,0 +1,38 @@
+// Here you can add other styles
+.c-sidebar {
+  color: #fff;
+  background: rgb(0, 21, 41);
+}
+
+.c-header {
+  box-shadow: rgba(0, 21, 41, 0.08) 0px 1px 4px;
+}
+
+.c-subheader {
+  border-top: 0;
+}
+
+.c-header, .c-subheader{
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.c-body {
+  background: #f0f2f5;
+}
+
+.card {
+  border: 0;
+}
+
+.card-title-custom {
+  float: left;
+}
+
+.ant-modal-mask, .ant-modal-wrap {
+  z-index: 1200 !important;
+}
+
+.ant-notification {
+  z-index: 1030 !important;
+}
